@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A35E08A1A71A32F004DA9EB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A35E0891A71A32F004DA9EB /* SettingsViewController.swift */; };
+		8A57852E1A72DBC200CF9D5C /* SignedInFilesFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A57852D1A72DBC200CF9D5C /* SignedInFilesFavoriteViewController.swift */; };
+		8A5E45761A71FF67000A03AA /* SignInCancelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E45751A71FF67000A03AA /* SignInCancelViewController.swift */; };
+		8A5E45781A720449000A03AA /* PhotosSignedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E45771A720449000A03AA /* PhotosSignedInViewController.swift */; };
+		8A7227311A76BDEC00733CE3 /* FirstWelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7227301A76BDEC00733CE3 /* FirstWelcomeScreenViewController.swift */; };
+		8A7227331A76C1DE00733CE3 /* SecondWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7227321A76C1DE00733CE3 /* SecondWelcomeViewController.swift */; };
+		8A7227351A76C27D00733CE3 /* ThirdWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7227341A76C27D00733CE3 /* ThirdWelcomeViewController.swift */; };
+		8AA4922A1A72B94D00985C43 /* CodePathTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA492291A72B94D00985C43 /* CodePathTableViewController.swift */; };
 		8AACD3461A708742007E704C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACD3451A708742007E704C /* AppDelegate.swift */; };
 		8AACD3481A708742007E704C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACD3471A708742007E704C /* ViewController.swift */; };
 		8AACD34B1A708742007E704C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AACD3491A708742007E704C /* Main.storyboard */; };
 		8AACD34D1A708743007E704C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AACD34C1A708742007E704C /* Images.xcassets */; };
 		8AACD3501A708743007E704C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AACD34E1A708743007E704C /* LaunchScreen.xib */; };
 		8AACD35C1A708743007E704C /* Sam_DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACD35B1A708743007E704C /* Sam_DropboxTests.swift */; };
+		8AACD3661A70962F007E704C /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACD3651A70962F007E704C /* CreateAccountRootViewController.swift */; };
+		8AACD3681A709642007E704C /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACD3671A709642007E704C /* SignInRootViewController.swift */; };
+		8AACD36A1A709A19007E704C /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACD3691A709A19007E704C /* CreateAccountViewController.swift */; };
+		8AACD36C1A709A28007E704C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACD36B1A709A28007E704C /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A35E0891A71A32F004DA9EB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8A57852D1A72DBC200CF9D5C /* SignedInFilesFavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignedInFilesFavoriteViewController.swift; sourceTree = "<group>"; };
+		8A5E45751A71FF67000A03AA /* SignInCancelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInCancelViewController.swift; sourceTree = "<group>"; };
+		8A5E45771A720449000A03AA /* PhotosSignedInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosSignedInViewController.swift; sourceTree = "<group>"; };
+		8A7227301A76BDEC00733CE3 /* FirstWelcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstWelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		8A7227321A76C1DE00733CE3 /* SecondWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondWelcomeViewController.swift; sourceTree = "<group>"; };
+		8A7227341A76C27D00733CE3 /* ThirdWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdWelcomeViewController.swift; sourceTree = "<group>"; };
+		8AA492291A72B94D00985C43 /* CodePathTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodePathTableViewController.swift; sourceTree = "<group>"; };
 		8AACD3401A708742007E704C /* Sam Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sam Dropbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AACD3441A708742007E704C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AACD3451A708742007E704C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +56,10 @@
 		8AACD3551A708743007E704C /* Sam DropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sam DropboxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AACD35A1A708743007E704C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AACD35B1A708743007E704C /* Sam_DropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam_DropboxTests.swift; sourceTree = "<group>"; };
+		8AACD3651A70962F007E704C /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		8AACD3671A709642007E704C /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		8AACD3691A709A19007E704C /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		8AACD36B1A709A28007E704C /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +107,18 @@
 				8AACD34C1A708742007E704C /* Images.xcassets */,
 				8AACD34E1A708743007E704C /* LaunchScreen.xib */,
 				8AACD3431A708742007E704C /* Supporting Files */,
+				8AACD3651A70962F007E704C /* CreateAccountRootViewController.swift */,
+				8AACD3671A709642007E704C /* SignInRootViewController.swift */,
+				8AACD3691A709A19007E704C /* CreateAccountViewController.swift */,
+				8AACD36B1A709A28007E704C /* SignInViewController.swift */,
+				8A35E0891A71A32F004DA9EB /* SettingsViewController.swift */,
+				8A5E45751A71FF67000A03AA /* SignInCancelViewController.swift */,
+				8A5E45771A720449000A03AA /* PhotosSignedInViewController.swift */,
+				8AA492291A72B94D00985C43 /* CodePathTableViewController.swift */,
+				8A57852D1A72DBC200CF9D5C /* SignedInFilesFavoriteViewController.swift */,
+				8A7227301A76BDEC00733CE3 /* FirstWelcomeScreenViewController.swift */,
+				8A7227321A76C1DE00733CE3 /* SecondWelcomeViewController.swift */,
+				8A7227341A76C27D00733CE3 /* ThirdWelcomeViewController.swift */,
 			);
 			path = "Sam Dropbox";
 			sourceTree = "<group>";
@@ -212,6 +248,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A5E45761A71FF67000A03AA /* SignInCancelViewController.swift in Sources */,
+				8AACD36A1A709A19007E704C /* CreateAccountViewController.swift in Sources */,
+				8A7227351A76C27D00733CE3 /* ThirdWelcomeViewController.swift in Sources */,
+				8AACD3681A709642007E704C /* SignInRootViewController.swift in Sources */,
+				8AA4922A1A72B94D00985C43 /* CodePathTableViewController.swift in Sources */,
+				8A5E45781A720449000A03AA /* PhotosSignedInViewController.swift in Sources */,
+				8A35E08A1A71A32F004DA9EB /* SettingsViewController.swift in Sources */,
+				8A7227331A76C1DE00733CE3 /* SecondWelcomeViewController.swift in Sources */,
+				8AACD36C1A709A28007E704C /* SignInViewController.swift in Sources */,
+				8AACD3661A70962F007E704C /* CreateAccountRootViewController.swift in Sources */,
+				8A7227311A76BDEC00733CE3 /* FirstWelcomeScreenViewController.swift in Sources */,
+				8A57852E1A72DBC200CF9D5C /* SignedInFilesFavoriteViewController.swift in Sources */,
 				8AACD3481A708742007E704C /* ViewController.swift in Sources */,
 				8AACD3461A708742007E704C /* AppDelegate.swift in Sources */,
 			);
@@ -336,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Sam Dropbox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Sam Dropbox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +455,7 @@
 				8AACD3611A708743007E704C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AACD3621A708743007E704C /* Build configuration list for PBXNativeTarget "Sam DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +464,7 @@
 				8AACD3641A708743007E704C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

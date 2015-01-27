@@ -21,5 +21,4 @@ Project Requirements:
 
 Walkthrough of all user stories:
 
-![Video Walkthrough]DropBox_Homework.gif)
-
+![Video Walkthrough](DropBox_Homework.gif)
